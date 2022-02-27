@@ -27,7 +27,7 @@ namespace X32Controller
 
         private void StartButton_Click(object sender, EventArgs e)
         {
-            var ipAddr = "192.168.1.100";
+            var ipAddr = "192.168.1.100"; // TODO: make text box on win form for input of IP
             X32Console x32 = new X32Console();
             x32.Connect(ipAddr);
 
